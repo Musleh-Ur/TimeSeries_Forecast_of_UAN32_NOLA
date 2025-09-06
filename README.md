@@ -63,12 +63,13 @@ ACF and PACF plots were analyzed to inform parameter selection.
 
 **📈 Key Results**
 
-|Model Summary|
-|Log Likelihood: -1900.732|
+| Model Summary |
+| Log Likelihood: -1900.732 |
+|--|
 
-|AIC: 3823.465|
+| AIC: 3823.465 |
 
-|BIC: 3870.193|
+| BIC: 3870.193 |
 
 Significant Variables
 The following variables had a statistically significant (p < 0.001) impact on UAN32_NOLA prices:
