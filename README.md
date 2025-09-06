@@ -6,7 +6,7 @@
 
 This repository contains the code and analysis for a comprehensive time series forecasting project focused on predicting UAN32_NOLA prices, a key fertilizer product in the agricultural and energy sectors. The project leverages the SARIMAX model (Seasonal AutoRegressive Integrated Moving Average with eXogenous variables) to incorporate external market drivers and seasonal patterns.
 
-📖 ## Abstract
+**📖 Abstract**
 Forecasting is critical for informed decision-making in volatile markets. This study presents a methodical approach to modeling and forecasting UAN32_NOLA prices. The process involves:
 
 Data preprocessing and exploratory analysis.
@@ -19,7 +19,7 @@ Performance evaluation using RMSE and MAE metrics.
 
 The results indicate that the SARIMAX model provides a moderate level of forecasting accuracy, establishing a strong foundation for further refinement and operational use.
 
-🗃️ ##Dataset
+**🗃️ Dataset**
 The analysis utilizes a dataset comprising several exogenous variables relevant to agricultural and energy markets:
 
 Target Variable: UAN32_NOLA prices
@@ -40,7 +40,7 @@ Urea Midwest prices
 
 The dataset consisted of 521 complete observations with no missing values.
 
-🛠️ ##Methodology
+**🛠️ Methodology**
 1. Preprocessing & Exploration
 Checked for and confirmed no missing values.
 
@@ -58,7 +58,7 @@ Model parameters (p, d, q) and seasonal parameters (P, D, Q, s) were systematica
 
 ACF and PACF plots were analyzed to inform parameter selection.
 
-📈 ##Key Results
+**📈 Key Results**
 Model Summary
 Log Likelihood: -1900.732
 
@@ -86,7 +86,7 @@ Mean Absolute Error (MAE): 7.15
 
 The model's predictions deviate from actual values by approximately 7 to 10 units on average.
 
-🔮 ##Forecasts
+**🔮 Forecasts**
 The model forecasts for the next 12 weeks (starting Jan 16, 2025) are:
 
 Date	Forecasted Price
@@ -100,10 +100,10 @@ Date	Forecasted Price
 2025-04-03	250.35
 (See the full list in the report above)
 
-✅ ##Conclusion
+**✅ Conclusion**
 The SARIMAX model demonstrates significant potential for forecasting UAN32_NOLA prices. The model successfully captures the influence of key market drivers and strong seasonal effects. While the current accuracy is moderate, it provides a robust baseline for future optimization.
 
-📋 ##Recommendations for Future Work
+**📋 Recommendations for Future Work**
 Incorporate Additional Variables: Integrate other potential influencers like weather data, agricultural demand cycles, or global trade flow data.
 
 Model Comparison: Compare SARIMAX performance against other advanced models like Prophet, LSTM networks, or Gradient Boosting Machines (GBM).
@@ -112,25 +112,25 @@ Automated Retraining: Implement a pipeline to regularly update the model with ne
 
 Hyperparameter Tuning: Conduct a more extensive grid search for SARIMAX orders and seasonal orders to potentially find a more optimal configuration.
 
-🚀 ###Getting Started
+**🚀 Getting Started**
 Prerequisites
 Python 3.7+
 
 Jupyter Notebook/Lab
 
-###Installation
+**Installation**
 Clone the repo:
 
-###bash
+**bash**
 git clone https://github.com/your_username_/UAN32_Forecast_SARIMAX.git
 Install required packages:
 
-###bash
+**bash**
 pip install -r requirements.txt
 (Note: A requirements.txt file should be created listing packages like pandas, numpy, statsmodels, matplotlib, seaborn)
 
-##Usage
+**Usage**
 Open and run the Jupyter Notebook UAN32_SARIMAX_Forecast.ipynb to see the full analysis, from data loading to forecasting.
 
-📄 ##License
+**📄 License**
 This project is licensed for academic and research purposes. Please cite this repository if you use the code or methodology.
