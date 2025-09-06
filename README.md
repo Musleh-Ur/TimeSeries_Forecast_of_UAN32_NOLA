@@ -10,19 +10,10 @@ This project implements a SARIMAX model to forecast UAN32_NOLA prices using exog
 
 ## Project Structure
 
-UAN32_Forecast_SARIMAX/
-│
-├── data/
-│ └── UAN32_data.csv
-│
-├── notebooks/
-│ └── UAN32_SARIMAX_Forecast.ipynb
-│
-├── src/
-│ ├── preprocessing.py
-│ ├── model.py
-│ └── visualization.py
-│
-├── requirements.txt
-├── LICENSE
-└── README.md
+
+## Installation
+
+```bash
+git clone https://github.com/your_username/UAN32_Forecast_SARIMAX.git
+cd UAN32_Forecast_SARIMAX
+pip install -r requirements.txt
