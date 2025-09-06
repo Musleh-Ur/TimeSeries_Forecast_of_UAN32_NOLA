@@ -64,11 +64,9 @@ ACF and PACF plots were analyzed to inform parameter selection.
 **📈 Key Results**
 
 | Model Summary |
-| Log Likelihood: -1900.732 |
 |--|
-
+| Log Likelihood: -1900.732 |
 | AIC: 3823.465 |
-
 | BIC: 3870.193 |
 
 Significant Variables
