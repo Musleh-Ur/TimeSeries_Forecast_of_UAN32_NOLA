@@ -6,7 +6,7 @@
 
 This repository contains the code and analysis for a comprehensive time series forecasting project focused on predicting UAN32_NOLA prices, a key fertilizer product in the agricultural and energy sectors. The project leverages the SARIMAX model (Seasonal AutoRegressive Integrated Moving Average with eXogenous variables) to incorporate external market drivers and seasonal patterns.
 
-📖 ##Abstract
+📖 ## Abstract
 Forecasting is critical for informed decision-making in volatile markets. This study presents a methodical approach to modeling and forecasting UAN32_NOLA prices. The process involves:
 
 Data preprocessing and exploratory analysis.
