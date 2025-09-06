@@ -22,25 +22,25 @@ This repository contains the code and analysis for a comprehensive time series f
 
 **🗃️ Dataset**
 
-The analysis utilizes a dataset comprising several exogenous variables relevant to agricultural and energy markets:
+- The analysis utilizes a dataset comprising several exogenous variables relevant to agricultural and energy markets:
 
-Target Variable: UAN32_NOLA prices
+- Target Variable: UAN32_NOLA prices
 
-Exogenous Variables:
+- Exogenous Variables:
 
-Ammonia (4-week EMA)
+- Ammonia (4-week EMA)
 
-UAN Baltic Sea prices
+- UAN Baltic Sea prices
 
-Ethanol prices
+- Ethanol prices
 
-Coal prices
+- Coal prices
 
-Dutch Natural Gas (4-week MA)
+- Dutch Natural Gas (4-week MA)
 
-Urea Midwest prices
+- Urea Midwest prices
 
-The dataset consisted of 521 complete observations with no missing values.
+- The dataset consisted of 521 complete observations with no missing values.
 
 **🛠️ Methodology**
 
@@ -63,12 +63,12 @@ ACF and PACF plots were analyzed to inform parameter selection.
 
 **📈 Key Results**
 
-Model Summary
-Log Likelihood: -1900.732
+|Model Summary|
+|Log Likelihood: -1900.732|
 
-AIC: 3823.465
+|AIC: 3823.465|
 
-BIC: 3870.193
+|BIC: 3870.193|
 
 Significant Variables
 The following variables had a statistically significant (p < 0.001) impact on UAN32_NOLA prices:
